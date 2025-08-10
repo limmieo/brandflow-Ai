@@ -28,9 +28,9 @@ BRANDS = {
         "metadata": "brand=fitness_plus",
         "lut": "Cobi_3.CUBE",
         "watermarks": [
-            "Thick_asian_watermark.png",
-            "Thick_asian_watermark_2.png",
-            "Thick_asian_watermark_3.png"
+            "fitness_plus_watermark.png",
+            "fitness_plus_watermark_2.png",
+            "fitness_plus_watermark_3.png"
         ]
     },
     "athletic_elite": {
