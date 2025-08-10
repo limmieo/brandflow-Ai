@@ -24,8 +24,8 @@ PROCESSED_DIR = os.path.join(SCRIPT_DIR, "processed")
 os.makedirs(PROCESSED_DIR, exist_ok=True)
 
 BRANDS = {
-    "thick_asian": {
-        "metadata": "brand=thick_asian",
+    "fitness_plus": {
+        "metadata": "brand=fitness_plus",
         "lut": "Cobi_3.CUBE",
         "watermarks": [
             "Thick_asian_watermark.png",
@@ -33,8 +33,8 @@ BRANDS = {
             "Thick_asian_watermark_3.png"
         ]
     },
-    "gym_baddie": {
-        "metadata": "brand=gym_baddie",
+    "athletic_elite": {
+        "metadata": "brand=athletic_elite",
         "lut": "Cobi_3.CUBE",
         "watermarks": [
             "gym_baddie_watermark.png",
@@ -42,13 +42,22 @@ BRANDS = {
             "gym_baddie_watermark_3.png"
         ]
     },
-    "polishedform": {
-        "metadata": "brand=polishedform",
+    "premium_fitness": {
+        "metadata": "brand=premium_fitness",
         "lut": None,
         "watermarks": [
             "polished_watermark.png",
             "polished_watermark_2.png",
             "polished_watermark_3.png"
+        ]
+    },
+    "travel_premium": {
+        "metadata": "brand=travel_premium",
+        "lut": None,
+        "watermarks": [
+            "asian_travel_watermark.png",
+            "asian_travel_watermark_2.png",
+            "asian_travel_watermark_3.png"
         ]
     }
 }
@@ -238,7 +247,7 @@ def too_large(e):
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template("404.html"), 404
+    return "Page not found", 404
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)

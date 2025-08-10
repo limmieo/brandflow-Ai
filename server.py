@@ -9,8 +9,8 @@ app = Flask(__name__)
 #-
 # ─── Brand Config ─────────────────────────────────────────────────────────
 BRANDS = {
-    "thick_asian": {
-        "metadata": "brand=thick_asian",
+    "fitness_plus": {
+        "metadata": "brand=fitness_plus",
         "lut": "Cobi_3.CUBE",
         "watermarks": [
             "Thick_asian_watermark.png",
@@ -20,8 +20,8 @@ BRANDS = {
         "captions_file": "thick_asian_captions.txt",
         "outro_file": "thick_asain_outro.MOV"
     },
-    "gym_baddie": {
-        "metadata": "brand=gym_baddie",
+    "athletic_elite": {
+        "metadata": "brand=athletic_elite",
         "lut": "Cobi_3.CUBE",
         "watermarks": [
             "gym_baddie_watermark.png",
@@ -31,8 +31,8 @@ BRANDS = {
         "captions_file": "gym_baddie_captions.txt",
         "outro_file": "gym_baddie_ig.mov"
     },
-    "polishedform": {
-        "metadata": "brand=polishedform",
+    "premium_fitness": {
+        "metadata": "brand=premium_fitness",
         "lut": None,
         "watermarks": [
             "polished_watermark.png",
@@ -42,8 +42,8 @@ BRANDS = {
         "captions_file": "polishedform_captions.txt",
         "outro_file": None
     },
-    "asian_travel": {
-        "metadata": "brand=asian_travel",
+    "travel_premium": {
+        "metadata": "brand=travel_premium",
         "lut": None,
         "watermarks": [
             "asian_travel_watermark.png",
